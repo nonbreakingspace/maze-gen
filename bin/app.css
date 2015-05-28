@@ -28,7 +28,7 @@ label + input[type="checkbox"] {
   margin-top: 25px;
   box-sizing: border-box; }
 
-.maze-config > .generate-button-container {
+.maze-config .generate-button-container {
   width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
