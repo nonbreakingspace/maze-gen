@@ -1,0 +1,29 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+input[type="number"] {
+    display: block;
+}
+
+label {
+    display: inline-block;
+}
+
+label + input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.maze-container {
+    padding: 40px 0 40px 0;
+    text-align: center;
+    border: 1px solid #DDD;
+}
+
+.maze-config > div {
+    display: inline-block;
+    width: 50%;
+    margin-top: 25px;
+    box-sizing: border-box;
+}

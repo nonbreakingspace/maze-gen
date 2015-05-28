@@ -12,8 +12,8 @@
     "react": "^0.13.3"
   },
   "scripts": {
-    "build": "browserify lib/app.js -t babelify -o bin/app.js",
-    "watch": "watchify lib/app.js -t babelify -o bin/app.js & node node_modules/node-static/bin/cli.js .",
-    "serve": "node node_modules/node-static/bin/cli.js ."
+    "build": "./scripts/build",
+    "watch": "./scripts/watch",
+    "serve": "./scripts/serve"
   }
 }

@@ -9,8 +9,9 @@ A maze generator written in Javascript.
 ## Setup
 
 ```
-npm install;
-npm run serve
+npm install
+npm run build
+npm run serve # connect to localhost:8080 to view
 ```
 
 ## Author
