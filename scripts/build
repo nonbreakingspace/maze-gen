@@ -1,5 +1,4 @@
 #!/bin/bash
 
 browserify lib/app.js -t babelify -o bin/app.js &
-sass lib/styles/app.scss:bin/app.css &
-cp lib/index.html bin
+sass lib/styles/app.scss:bin/app.css
