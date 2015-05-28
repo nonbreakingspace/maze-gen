@@ -16,9 +16,14 @@ label + input[type="checkbox"] {
 }
 
 .maze-container {
+    position: relative;
     padding: 40px 0 40px 0;
-    text-align: center;
-    border: 1px solid #DDD;
+    //text-align: center;
+    //border: 1px solid #DDD;
+}
+
+.maze-config {
+    margin-bottom: 40px;
 }
 
 .maze-config > div {
@@ -26,4 +31,8 @@ label + input[type="checkbox"] {
     width: 50%;
     margin-top: 25px;
     box-sizing: border-box;
+}
+
+.maze-config > .generate-button-container {
+    width: 100%;
 }
