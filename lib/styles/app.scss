@@ -15,11 +15,14 @@ label + input[type="checkbox"] {
     margin-left: 10px;
 }
 
+.app {
+    position: relative;
+    height: 100%;
+}
+
 .maze-container {
     position: relative;
     padding: 40px 0 40px 0;
-    //text-align: center;
-    //border: 1px solid #DDD;
 }
 
 .maze-config {
